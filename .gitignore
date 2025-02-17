@@ -1,0 +1,8 @@
+cat >> .gitignore <<EOF
+
+#Ignore patterns here:
+*.test
+*.txt
+*.pkl
+out-jam-cgpt/
+wandb/
