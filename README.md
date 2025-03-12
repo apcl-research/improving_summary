@@ -67,6 +67,9 @@ python3 meteor.py jam_cgpt_predictions/predict_data170k_model350m.txt --coms-fil
 ```
 python3 use_score_v.py jam_cgpt_predictions/predict_170k_100mparameters.txt --gpu=0 --coms-filename=cgptcom.test --data=./data/jam_cgpt_170k
 ```
+```
+python3 bert_tTest.py jam_cgpt_predictions/Condensing_preds/predict_Condensing_human_3.txt ..
+/methods/Condensing/SC3.txt --coms-filename=data/Condensing/Human_.test --not-diffonly
 
 ## Dataset
 
