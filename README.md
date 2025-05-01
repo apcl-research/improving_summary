@@ -1,12 +1,12 @@
-# Jam-CGPT: Distilled GPT for Source Code Summarization
+# AI-Mediated Code Comment Improvement
 
-## Code for Distilled GPT for Source Code Summarization
+## Code for improving code comment
 
-Proposed by:
+<!--Proposed by:
 - [Chia-Yi Su](https://chiayisu.github.io/)
-- [Collin McMillan](https://sdf.org/~cmc/)
+- [Collin McMillan](https://sdf.org/~cmc/)-->
 
-This repository contains all the code and detailed instructions to rebuild [Jam-CGPT](https://huggingface.co/apcl/Jam-CGPT) models in our HuggingFace [Automatic Program Comprehension Lab](https://huggingface.co/apcl) hub.
+This repository contains all the code and detailed instructions to reproduce our work.
 
 ## Quick link
 - [To-do list](#to-do-list)
@@ -29,7 +29,7 @@ pip install -r requirements.txt
 - If you want to recompile our datasets, please see [Dataset](#dataset)
 
 ## Finetuning 
-These steps will show you how to fine-tune Jam-CGPT in our paper.
+These steps will show you how to fine-tune Jam model in our paper.
 
 ### Step 1: Download the finetuning dataset
 
