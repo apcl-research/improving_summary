@@ -68,9 +68,8 @@ python3 meteor.py jam_cgpt_predictions/predict_data170k_model350m.txt --coms-fil
 python3 use_score_v.py jam_cgpt_predictions/predict_170k_100mparameters.txt --gpu=0 --coms-filename=cgptcom.test --data=./data/jam_cgpt_170k
 ```
 ```
-python3 bert_tTest.py jam_cgpt_predictions/Condensing_preds/predict_Condensing_human_3.txt ..
-/methods/Condensing/SC3.txt --coms-filename=data/Condensing/Human_.test --not-diffonly
-
+python3 bert_tTest.py jam_cgpt_predictions/Condensing_preds/predict_Condensing_human_3.txt ../methods/Condensing/SC3.txt --coms-filename=data/Condensing/Human_.test --not-diffonly
+```
 ## Dataset
 
 We also release all of our raw datasets for the experiments in our [Hugginface repo](https://huggingface.co/datasets/apcl/Jam-CGPT/tree/main) and the scripts for compiling the raw data to ``bin`` files in this Github repo. Before running the command, please create three dir: ``pkls``, ``bins``, and ``tmp``. Then, you can simply run the following command to generate ``train.bin`` and ``val.bin``.
@@ -98,6 +97,7 @@ We also release the config file for pretaining the jam-cgpt 38m model and 110m m
       series = {ESEC/FSE 2023}
 }
 ```
+<!--
 ## Citation
 This work was accepted to [Automated Software Engineering](https://link.springer.com/journal/10515), an academic journal.  If you use this work in an academic paper, please cite the following:
 ```
@@ -108,5 +108,5 @@ This work was accepted to [Automated Software Engineering](https://link.springer
       journal={Automated Software Engineering}
 }
 ```
-Preprint PDF available here: https://arxiv.org/abs/2308.14731
+Preprint PDF available here: https://arxiv.org/abs/2308.14731 -->
 
