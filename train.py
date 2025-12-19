@@ -32,6 +32,7 @@ from model import GPTConfig, GPT, get_lora_model
 # -----------------------------------------------------------------------------
 # default config values designed to train a gpt2 (124M) on OpenWebText
 # I/O
+# out_dir = 'out'
 out_dir = 'out'
 eval_interval = 2000
 log_interval = 1

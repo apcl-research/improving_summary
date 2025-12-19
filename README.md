@@ -6,7 +6,7 @@
 - [Chia-Yi Su](https://chiayisu.github.io/)
 - [Collin McMillan](https://sdf.org/~cmc/)-->
 
-This repository contains all the code and detailed instructions to reproduce our work.
+This repository contains all the code and detailed instructions to reproduce our work for distilled in-house model.
 
 ## Quick link
 - [To-do list](#to-do-list)

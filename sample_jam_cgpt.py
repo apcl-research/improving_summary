@@ -10,6 +10,8 @@ from model import GPTConfig, GPT
 import re
 import tqdm
 
+
+
 # -----------------------------------------------------------------------------
 init_from = 'resume' # either 'resume' (from an out_dir) or a gpt2 variant (e.g. 'gpt2-xl')
 out_dir = 'out-jam-cgpt' # ignored if init_from is not 'resume'
