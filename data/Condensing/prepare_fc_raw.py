@@ -18,6 +18,7 @@ random.seed(1337)
 # number of workers in .map() call
 # good number to use is ~order number of cpu cores // 2
 
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='')
     parser.add_argument('--num-proc', type=int, default=4)

@@ -5,5 +5,6 @@ cat >> .gitignore <<EOF
 *.txt
 *.pkl
 *.bin
+*.csv
 out-jam-cgpt/
 wandb/

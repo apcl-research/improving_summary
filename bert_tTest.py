@@ -6,6 +6,7 @@ import collections
 from scipy.stats import ttest_rel
 from bert_score import score
 
+
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
 

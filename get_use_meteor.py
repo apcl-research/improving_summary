@@ -2,7 +2,6 @@ import subprocess
 import re
 import sys
 
-
 def get_use_score(predfile, data, coms_filename):
     command = ["python3", "use_score_v.py", predfile, "--data=" + data, "--coms-filename=" + coms_filename]
     result = subprocess.run(command, capture_output=True, text=True)

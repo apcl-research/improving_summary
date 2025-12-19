@@ -15,6 +15,7 @@ import torch
 import torch.nn as nn
 from torch.nn import functional as F
 
+
 # Overwriting the methods of nn.Linear:
 # https://pytorch.org/docs/stable/_modules/torch/nn/modules/linear.html#Linear
 class LoRALinear(nn.Linear):

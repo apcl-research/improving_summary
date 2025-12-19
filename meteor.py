@@ -7,6 +7,7 @@ import collections
 
 import numpy as np
 
+
 from nltk.translate.meteor_score import meteor_score
 
 from myutils import prep, drop, statusout, batch_gen, seq2sent, index2word

@@ -11,8 +11,6 @@ import argparse
 datapath = '.'
 outpath = '.'
 
-
-
 def fil(com):
     ret = list()
     for w in com:

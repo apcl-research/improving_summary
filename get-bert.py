@@ -2,7 +2,6 @@ import subprocess
 import re
 import sys
 
-
 def get_bert_score(predfile, reffile):
     """Runs get-bert-score.py and extracts BERTScore (Precision, Recall, F1)."""
     command = ["python3", "eval-bert-score.py", predfile, reffile]

@@ -11,7 +11,6 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 datapath = '.'
 outpath = '.'
 
-
 def fil(com):
     """Filter function to remove special characters from tokens."""
     return [w for w in com if '<' not in w]

@@ -15,6 +15,7 @@ import bincomb
 
 random.seed(1337)
 
+
 # number of workers in .map() call
 # good number to use is ~order number of cpu cores // 2
 
