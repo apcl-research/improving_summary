@@ -39,7 +39,7 @@ You can download all of the datasets in our paper in our [Hugginface repo](https
 
 Please download the checkpoint files named ``ckpt_pretrain.pt`` in our [Hugginface repo](https://huggingface.co/apcl/Jam-CGPT/tree/main) to get our base model and put the checkpoint to the same  ``dir`` as ``--out_dir`` in ``config/finetune_model_350m_dataset_170k.py``
 
-The finetuned model checkpoints are available here: https://drive.google.com/drive/u/1/folders/0AFpxSBNv05WEUk9PVA
+The finetuned model checkpoints are available here: https://notredame.box.com/s/x8qkkvg9b6pzxlsimyb8u9zsbn2u6tan
 
 ### Step 3: Finetuning model
 
